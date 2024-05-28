@@ -21,7 +21,7 @@ A ReactNode or a function that returns a ReactNode. If a function, it receives a
 className (optional): Additional CSS classes for custom styling.
 Example
 
-<pre>
+<code>
 import { Popup, PopupContent, PopupHandle } from '@your-org/popup-component';
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
 }
 
 export default App;
-</pre>
+</code>
 
 ## PopupContent Component
 ## Props
