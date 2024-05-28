@@ -12,11 +12,11 @@ The `Popup` module includes three main components:
 
  
 # Usage
-## Popup Component
-## Props
-## action (optional): 
+#### Popup Component
+#### Props
+#### action (optional): 
 Specifies the trigger action ('click' or 'hover'). Default is 'hover'.
-## children: 
+#### children: 
 A ReactNode or a function that returns a ReactNode. If a function, it receives an object with a close method to programmatically close the popup.
 className (optional): Additional CSS classes for custom styling.
 Example
@@ -49,9 +49,9 @@ function App() {
 export default App;
 ```
 
-## PopupContent Component
-## Props
-## position (optional): 
+#### PopupContent Component
+#### Props
+#### position (optional): 
 Defines the preferred position ('above' or 'below') of the content relative to the handle.
 children: The content to be displayed inside the popup.
 
